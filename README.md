@@ -32,3 +32,20 @@ git clone https://github.com/MrSaiclops/SpokenStreamSleuth && cd SpokenStreamSle
 ```console
 pip install -r requirements.txt
 ```
+
+4. Run Whisper webservice
+```console
+docker run -d -p 9000:9000 -e ASR_MODEL=medium -e ASR_ENGINE=faster_whisper onerahmet/openai-whisper-asr-webservice:latest
+```
+5. Set config settings
+   
+   ``nano config.txt``
+
+   Instructions for getting the token [here](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/#toc-0). If whisper is hosted on the same machine you should be fine to use ``localhost:9000``
+```console
+plexURL=http://192.168.1.237:32400
+token=TGsM67-BJBatyVYchvmy
+library=TV Shows
+whisper=192.168.1.222:9000
+```
+
