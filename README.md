@@ -45,7 +45,7 @@ nano config.txt
    Instructions for getting the token [here](https://support.plex.tv/articles/204059436-finding-an-authentication-token-x-plex-token/#toc-0). If whisper is hosted on the same machine you should be fine to use ``localhost:9000``
 ```console
 plexURL=http://192.168.1.237:32400
-token=TGsM67-BJBatyVYchvmy
+token=XWpR93-KLfQv5-GHsTb6
 library=TV Shows
 whisper=192.168.1.222:9000
 ```
