@@ -1,0 +1,4 @@
+plexURL=http://192.168.1.237:32400
+token=XWpR93-KLfQv5-GHsTb6
+library=TV Shows
+whisper=192.168.1.222:9000
